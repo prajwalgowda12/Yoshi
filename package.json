@@ -1,0 +1,19 @@
+{
+  "name": "lucia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lexer.js",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "mz": "^2.7.0",
+    "nearley": "^2.20.1",
+    "moo": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gen-parser": "nearleyc grammar.ne -o grammar.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
